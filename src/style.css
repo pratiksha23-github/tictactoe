@@ -1,0 +1,26 @@
+.icon{
+    color:red;
+    font-size: 30px;
+}
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+} 
+.box{
+    width:auto;
+    height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/* to make button center */
+.btn-secondary{
+    
+    margin-left: 205px;
+    
+}
